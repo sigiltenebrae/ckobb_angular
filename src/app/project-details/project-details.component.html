@@ -1,0 +1,17 @@
+<style>
+  ::ng-deep .carousel-control-prev, ::ng-deep .carousel-control-next {
+    filter: invert(100%);
+  }
+</style>
+
+<div *ngIf="project" class="justify-content-md-center" style="margin: 10px">
+  <h3> {{ project.name }} </h3>
+  <br>
+  <ngb-carousel #carousel [interval]="10000" style="text-align: center">
+    <ng-template ngbSlide *ngFor="let img of project.images; index as i">
+      <img [src]="img" style="height: 500px; border-radius: 2%;">
+    </ng-template>
+  </ngb-carousel>
+  <br>
+  <p> {{project.description}} <a *ngIf="project.source" href="{{project.source}}">View Source</a></p>
+</div>
