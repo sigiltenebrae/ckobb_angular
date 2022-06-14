@@ -14,7 +14,8 @@ export const projects = [
     name: 'Image Filter',
     summary: 'An image manipulation application written in C++.',
     description:
-      'An image manipulation application written in C++.',
+      'A C++ application using the OpenCV and Magick++ libraries to manipulate image files. Currently capable of' +
+      ' neon-laser outline, laser-etched wood, and glass-cut effects.',
     thumbnail: 'assets/thumbnails/filter_thumb.png',
     images: [
       'assets/projects/filter/Darth_Vader.jpg',
@@ -27,8 +28,10 @@ export const projects = [
   {
     id: 2,
     name: 'Custom DBMS',
-    summary: '',
-    description: '',
+    summary: 'A miniature SQL clone written in Java',
+    description: 'An ACID compliant DBMS capable of handling variable-length records and B+ Tree parsing. ' +
+      'Implements a page buffer for faster access time and writes all data to disk for persistent storage. Written in ' +
+      'Java.',
     thumbnail: '',
     images: [],
     source: ''
@@ -36,18 +39,20 @@ export const projects = [
   {
     id: 3,
     name: 'Automated Garden',
-    summary: '',
-    description: '',
+    summary: 'Garden management utility on a Raspberry Pi',
+    description: 'A python script running on a Raspberry Pi that uses sensors to determine when to automatically water ' +
+      'plants. Connects to OpenWeather API to get the weekly weather forecast and cancel hydration if rain is ' +
+      'predicted.',
     thumbnail: '',
     images: [],
-    source: ''
+    source: 'https://github.com/sigiltenebrae/AutoGarden'
   },
   {
     id: 4,
     name: 'Home Lab',
-    summary: '',
+    summary: 'A home server running Proxmox.',
     description: '',
-    thumbnail: '',
+    thumbnail: 'assets/thumbnails/proxmox_thumbnail.png',
     images: [],
     source: ''
   },
