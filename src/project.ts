@@ -51,15 +51,19 @@ export const projects = [
     id: 4,
     name: 'Home Lab',
     summary: 'A home server running Proxmox.',
-    description: '',
+    description: 'A Dell r710 running Proxmox hosting 14 VMs and over 30 Docker containers. Routes home internet using pfSense. ' +
+      'Hosts a BitWarden password manager, BookStacks wiki, NextCloud storage, and a set of DBMS\'s. ',
     thumbnail: 'assets/thumbnails/proxmox_thumbnail.png',
-    images: [],
+    images: [
+      'assets/projects/homelab/proxmox_screen.png',
+      'assets/projects/homelab/portainer_screen.png',
+    ],
     source: ''
   },
   {
     id: 5,
     name: '3D Printers',
-    summary: '',
+    summary: 'Machines that print in 3D',
     description: '',
     thumbnail: '',
     images: [],
@@ -67,8 +71,27 @@ export const projects = [
   },
   {
     id: 6,
-    name: 'Multiple Arcade Machine Emulator',
-    summary: '',
+    name: 'CAD Projects',
+    summary: 'Misc Designs',
+    description: '',
+    thumbnail: '',
+    images: [],
+    source: ''
+  },
+  {
+    id: 7,
+    name: 'M.A.M.E.',
+    summary: 'Multiple Arcade Machine Emulator',
+    description: 'A Raspberry Pi 3 based arcade emulator running RetroPie, with custom side panels, housing, ' +
+      'and splash screen. Wired in functional buttons and joysticks, with USB controller support as well.',
+    thumbnail: 'assets/thumbnails/mame_thumb.png',
+    images: ['assets/projects/mame/mame.png'],
+    source: ''
+  },
+  {
+    id: 8,
+    name: 'Angular WebApp',
+    summary: 'Node.JS & Angular Web Server',
     description: '',
     thumbnail: '',
     images: [],
