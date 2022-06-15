@@ -50,7 +50,10 @@ p{
   line-height: 1.6;
   font-weight: 500;
   padding-top: 5px;
+}
 
+li{
+  color: #545454;
 }
 
 body {
