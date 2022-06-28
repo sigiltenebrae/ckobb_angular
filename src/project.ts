@@ -62,6 +62,22 @@ export const projects = [
   },
   {
     id: 5,
+    name: 'Home Dashboard',
+    summary: 'Custom home dashboard.',
+    description: '<p>A home dashboard written with Angular and NodeJS, integrating with service APIs and running custom Node APIs for ' +
+      'TCP service pings and reading log files.</p>',
+    thumbnail: 'assets/thumbnails/dashboard_thumb.png',
+    images: [
+      'assets/projects/dashboard/dashboard-1.png',
+      'assets/projects/dashboard/dashboard-2.png',
+      'assets/projects/dashboard/dashboard-3.png',
+      'assets/projects/dashboard/dashboard-4.png',
+      'assets/projects/dashboard/dashboard-5.png',
+    ],
+    source: ''
+  },
+  {
+    id: 6,
     name: '3D Printers',
     summary: 'Machines that print in 3D',
     description: '<p>3D Printers fully customized: </p>' +
@@ -81,7 +97,7 @@ export const projects = [
     source: ''
   },
   {
-    id: 6,
+    id: 7,
     name: 'CAD Projects',
     summary: 'Misc Designs',
     description: '<p>Just a quick look at some of my designs. Most are upgrades for my printers, or ' +
@@ -97,8 +113,8 @@ export const projects = [
     ],
     source: ''
   },
-  {
-    id: 7,
+/*  {
+    id: 8,
     name: 'M.A.M.E.',
     summary: 'Multiple Arcade Machine Emulator',
     description: '<p>A Raspberry Pi 3 based arcade emulator running RetroPie, with custom side panels, housing, ' +
@@ -106,9 +122,9 @@ export const projects = [
     thumbnail: 'assets/thumbnails/mame_thumb.png',
     images: ['assets/projects/mame/mame.png'],
     source: ''
-  },
+  },*/
   {
-    id: 8,
+    id: 9,
     name: 'Angular WebApp',
     summary: 'Node.js & Angular Web Server',
     description: '<p>A node web server using the angular framework hosting my personal website.</p>',
