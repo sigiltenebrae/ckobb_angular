@@ -26,15 +26,19 @@ export const projects = [
     source: 'https://github.com/sigiltenebrae/Trench-3'
   },
   {
-    id: 2,
-    name: 'Custom DBMS',
-    summary: 'A miniature SQL clone written in Java',
-    description: '<p>An ACID compliant DBMS capable of handling variable-length records and B+ Tree parsing. ' +
-      'Implements a page buffer for faster access time and writes all data to disk for persistent storage. Written in ' +
-      'Java.</p>',
-    thumbnail: '',
-    images: [],
-    source: ''
+    id: 5,
+    name: 'Commander Recommendation System',
+    summary: 'Angular web application to recommend EDH Commanders',
+    description: '<p>Angular web application for recommending EDH Commanders to build. Uses market-basket analysis on user submitted' +
+      ' decks and find external decks with the greatest commonality. Stores data in a Postgres db accessible with a custom made API.</p>',
+    thumbnail: 'assets/thumbnails/commanderdash.png',
+    images: [
+      'assets/projects/commanderdash/commanderdash-decklist.png',
+      'assets/projects/commanderdash/commanderdash-edit.png',
+      'assets/projects/commanderdash/commanderdash-charts.png',
+      'assets/projects/commanderdash/commanderdash-recs.png',
+    ],
+    source: 'https://github.com/sigiltenebrae/CommanderDash3',
   },
   {
     id: 3,
@@ -60,6 +64,17 @@ export const projects = [
     ],
     source: ''
   },
+  {
+    id: 2,
+    name: 'Custom DBMS',
+    summary: 'A miniature SQL clone written in Java',
+    description: '<p>An ACID compliant DBMS capable of handling variable-length records and B+ Tree parsing. ' +
+      'Implements a page buffer for faster access time and writes all data to disk for persistent storage. Written in ' +
+      'Java.</p>',
+    thumbnail: '',
+    images: [],
+    source: ''
+  },
 /*  {
     id: 5,
     name: 'Home Dashboard',
@@ -76,21 +91,6 @@ export const projects = [
     ],
     source: ''
   },*/
-  {
-    id: 5,
-    name: 'Commander Recommendation System',
-    summary: 'Angular web application to recommend EDH Commanders',
-    description: '<p>Angular web application for recommending EDH Commanders to build. Uses market-basket analysis on user submitted' +
-      ' decks and find external decks with the greatest commonality. Stores data in a Postgres db accessible with a custom made API.</p>',
-    thumbnail: 'assets/thumbnails/commanderdash.png',
-    images: [
-      'assets/projects/commanderdash/commanderdash-decklist.png',
-      'assets/projects/commanderdash/commanderdash-edit.png',
-      'assets/projects/commanderdash/commanderdash-charts.png',
-      'assets/projects/commanderdash/commanderdash-recs.png',
-    ],
-    source: 'https://github.com/sigiltenebrae/CommanderDash3',
-  },
   {
     id: 6,
     name: '3D Printers',
