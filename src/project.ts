@@ -60,7 +60,7 @@ export const projects = [
     ],
     source: ''
   },
-  {
+/*  {
     id: 5,
     name: 'Home Dashboard',
     summary: 'Custom home dashboard.',
@@ -75,6 +75,21 @@ export const projects = [
       'assets/projects/dashboard/dashboard-5.png',
     ],
     source: ''
+  },*/
+  {
+    id: 5,
+    name: 'Commander Recommendation System',
+    summary: 'Angular web application to recommend EDH Commanders',
+    description: '<p>Angular web application for recommending EDH Commanders to build. Uses market-basket analysis on user submitted' +
+      ' decks and find external decks with the greatest commonality. Stores data in a Postgres db accessible with a custom made API.</p>',
+    thumbnail: 'assets/thumbnails/commanderdash.png',
+    images: [
+      'assets/projects/commanderdash/commanderdash-decklist.png',
+      'assets/projects/commanderdash/commanderdash-edit.png',
+      'assets/projects/commanderdash/commanderdash-charts.png',
+      'assets/projects/commanderdash/commanderdash-recs.png',
+    ],
+    source: 'https://github.com/sigiltenebrae/CommanderDash3',
   },
   {
     id: 6,
